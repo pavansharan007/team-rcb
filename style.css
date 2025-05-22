@@ -1,0 +1,301 @@
+body{
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0px;
+    color: azure;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    background-color: red;
+}
+.nav_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: gold;
+    font-size: 2rem;
+    
+    width: 50vw;
+}
+.navbar .nav_left p{
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.nav_right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.l{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+.l:hover{
+    color:gold;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+h1{
+    color: gold;
+    padding-left: 30px;
+}
+h2{
+    color:gold;
+    padding-left: 30px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    height: 63vh;
+    font-weight: 300;
+    
+    background-image: url("https://res.cloudinary.com/dwmpdbsej/image/upload/v1747756661/Untitled_design_usfufi.png");
+    background-size: cover;
+    
+}
+.about .aboutp{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    font-size: 1.7rem;
+    padding: 30px;
+    
+}
+.squad{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 249, 250);
+    
+    padding: 50px;
+}
+.squad1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.squad2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: white;
+    width: 23%;
+    height: 23%;
+    font-weight: bold;    
+    border:1px solid black;
+    border-radius: 6px;
+    background-color: rgb(40, 37, 52);
+    padding: 0%;
+    margin: 10px;
+}
+.squad2:hover{
+    font-size: 1.3rem;
+    
+}
+.logo{
+
+    width: 10%;
+    height: 60%;
+}
+.matches{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.match{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    border:1px solid white;
+    border-radius: 8px;
+    margin: 15px;
+    max-width: max-content;
+}
+.left_team{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    max-width: 300px;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    
+}
+.result p {
+    margin: 2px 0;
+    padding: 0;
+}
+.right_team{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+   
+    width: 220px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    
+}
+.team{
+    width: 60%;
+    height: 60%;
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding-right: 0%;
+    text-align: right;
+    
+}
+.GT{
+    padding-right: 0%;
+}
+.match:hover{
+    font-size: 1.2rem;
+}
+.esala{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    
+}
+.cup{
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    color: yellow;   
+}
+.cup1{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.key-stats{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: red;
+}
+.runs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.runs:hover{
+    font-size: 1.2rem;
+}
+.wickets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wickets:hover{
+    font-size: 1.2rem;
+}
+.runs1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30vw;
+    border:1px solid white;
+    border-radius: 12px;
+}
+.wickets1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    width: 30vw;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.runs1-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 20%;
+    
+}
+.runs1-left p{
+    margin: 0px;
+    padding: 0px;
+
+}
+.bowling{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.bowling .figures{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border:1px solid white;
+    border-radius: 12px;
+}
+.bowling:hover{
+    font-size: 1.2rem;
+}
+
+.stalo{
+    
+    width: 30%;
+    height: 80%;
+    border:1px solid white;
+}
+.culogo{
+    width: 15%;
+    height: 15%;
+}
+.cup0{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.cup2{
+    width: 30%;
+    height: 30%;
+}
+.mi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
